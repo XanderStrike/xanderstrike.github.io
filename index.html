@@ -1,0 +1,134 @@
+<!-- FYI, you can view/fork my portfolio at https://github.com/XanderStrike/folio -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alexander Standke | Design & Development</title>
+  <meta property="og:image" content="img/me.png">
+  <link href='style.css' rel='stylesheet' type='text/css'>
+  <script>
+    window.onload = function() {
+      document.body.className += ' loaded'
+    };
+  </script>
+</head>
+<body>
+  <section id="title-banner" class="banner">
+    <div class="inner">
+      <h1>Alexander Standke</h1>
+      <h2>Design & Development</h2>
+    </div>
+  </section>
+
+  <section class="content">
+    <center><img src="img/me.png"></center>
+    <h1>I solve practical problems.</h1>
+
+    <p class="center skinny">I am a student, Ruby on Rails developer, web designer, photographer, cyclist, and adventurer. I like building things almost as much as I like taking them apart. I love designing products to make things easier while getting out of the way. I have an obsession with simplicity and clarity, and strive for perfection and efficiency in all things. I design software and study computer science at <a href="http://www.westmont.edu" target="new">Westmont College</a>.</p>
+
+    <table><tr><td>
+        <a href="http://www.linkedin.com/pub/alexander-standke/5a/aa8/7a4" target="new">
+          <img src="http://i.imgur.com/KtDpkID.png"> 
+        </a>
+      </td><td>
+        <a href="https://github.com/xanderstrike" target="new">
+          <img src="http://i.imgur.com/65lnGpg.png">
+        </a>
+      </td><td>
+        <a href="http://talkingtoflowers.tumblr.com" target="new">
+          <img src="http://i.imgur.com/jxvXvX6.png">
+        </a>
+    </td></tr></table>
+  </section>
+
+  <section id="banner0" class="banner">
+    <div class="inner">
+      <h1>Projects</h1>
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="expand-div" id="caketop" onclick="expand('#caketop')" >
+      <button id="caketop-btn"></button>
+      <h2>Caketop Theater (Senior Project)</h2>
+      <img src="img/caketop.jpg" width="500px" class="image-right">
+      <p>As it becomes more and more common to host home media servers, the problem of how to get that media out to client computers becomes a more interesting one. Caketop Theater attempts to address this problem in a novel way, by providing a web based interface for browsing, and an HTML5 player for movies, tv shows, and music. Given a directory in which movies, music, or tv shows reside, it will download metadata (cover art, album art, release date, genre, cast, etc) and provide users with the ability to browse, filter, and search based on that metadata. Caketop Theater is an open source web app built on Ruby on Rails, served through Apache/Passenger. The code is available for perusal <a href="https://github.com/XanderStrike/movie-browser/">here</a>.</p>
+    </div>
+
+    <div class="expand-div" id="connect" onclick="expand('#connect')" >
+      <button id="connect-btn"></button>
+      <h2>Westmont Connect</h2>
+      <img src="img/connect.png" width="500px" class="image-right">
+      <p>Westmont inspires an incredible level of connectedness in it's students and alumni, so when it came time to redesign the Alumni Directory, we decided to reinvent it with these connections central to the system. Westmont Connect is a platform though which the tens of thousands of Westmont Alums can connect with their friends, classmates, and mentors. Connect is a full featured social network, with status updates, networking, and messaging that also provides Alumni with a way to keep their personal and professional data up to date. Built association with <a href="http://inkstonehq.com/" target="new">Inkstone Software</a> on Rails with MongoDB.</p>
+    </div>
+
+    <div class="expand-div" id="upkeep" onclick="expand('#upkeep')">
+      <button id="upkeep-btn"></button>
+      <h2>Upkeep</h2>
+      <img src="img/upkeep.png" width="500px" class="image-right">
+      <p>Technology that make peoples lives better and more productive is my passion, and Upkeep does just that. For close to a decade, the Physical Plant at Westmont had been using the same system to manage work orders and requests. It came with a tomb for a manual and only worked properly in IE, it was time for a change. First and foremost Upkeep had to be intuitive enough for anyone to use. Features include ticket creation, scheduling, managmenet and assignment, employee management, and CAS integration for single sign on. Ruby on Rails and MongoDB provide the back end to this blazing fast and beautiful new system, while Bootstrap provides styling and responsiveness for key mobile pages.</p>
+    </div>
+
+    <div class="expand-div" id="ato" onclick="expand('#ato')" >
+      <button id="ato-btn"></button>
+      <h2>Academic Technology Online</h2>
+      <img src="img/emo.png" width="500px" class="image-right">
+      <p>Academic Technology sounds fancy, but really they're just the roadies of Westmont. They bring the sound, light, and video equipment to every event on campus, and make sure everything goes off without a hitch. They are fast, flexible, and highly mobile, so their work management system has to be too. EMO shares a lot of features with Upkeep, but has a highly streamlined workflow and works seamlessly on mobile or desktop. Academic Technology employs only student workers, and works on a bounty system, so it's also an experiment in gamification. Student workers can see their average gigs worked per week and month, and there are weekly/monthly/all-time leaderboards where they can see how they stack up against their peers. EMO uses Rails and MongoDB on the back end, with Foundation on the front for site-wide responsive grids.</p>
+    </div>
+  </section>
+
+  <section id="banner1" class="banner">
+    <div class="inner">
+      <h1>Education</h1>
+    </div>
+  </section>
+
+  <section class="content">
+    <h2>Westmont College</h2>
+    <img class="image-right" src="http://i.imgur.com/NyDDBIW.png" height='250px'>
+    <p>A small Christian school might be an unusual choice for someone seeking a computer science degree, but I wouldn't have it any other way. Westmont follows the Christian Liberal Arts tradition, in which students are given a varied and thorough education on a wide variety of subjects outside of their main discipline, in contrast to practical arts schools, where students are provided with the bare minimum of general education. This style of education focuses on more than just professional preparation, making intellectual and spiritual growth as much a priority as becoming a valuable and knowledgable future employee. I believe that the additional knowledge I have gained from being a part of this tradition has helped to make me a more informed and thoughtful person, and I find the skills I've developed invaluable. For more information on the Christian Liberal Arts Tradition, please see <a href="http://www.westmont.edu/institute/pdfs/liberal_arts_tradition.pdf" target="new">this essay</a> on the subject.</p>
+  </section>
+
+  <section id="contact-banner" class="banner">
+    <div class="inner">
+      <div class="col-2">
+        <div>
+          <p class="skinny">"The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination. Few media of creation are so flexible, so easy to polish and rework, so readily capable of realizing grand conceptual structures. Yet the program construct, unlike the poet's words, is real in the sense that it moves and works, producing visible outputs separately from the construct itself. It prints results, draws pictures, produces sounds, moves arms. The magic of myth and legend has come true in our time. One types the correct incantation on a keyboard, and a display screen comes to life, showing things that never were nor could be."
+            <br><br>
+            -Frederick Brooks</p>
+        </div>
+        <div>
+          <h1>Contact</h1>
+          <h3>xanderstrike@gmail.com</h3>
+          <h3>818.703.2087</h3>
+          <h3><a href="Resume.pdf" target="new">R&eacute;sum&eacute;</a></h3>
+          <br><br><br><br><br><br><br><br><br><br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="foot">
+    Handbuilt in <a href="sublimetext.com" target="new">Sublime Text</a> | 
+    Currently listening to <a id="lastfm" href="http://www.last.fm/user/xanderstrike"></a> |
+    &copy; Alexander Standke 2013
+  </section>
+
+
+  <script src="jquery-1.10.1.min.js"></script>
+  <script>
+  $.getJSON('http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=xanderstrike&api_key=a0cdf76d44c313ba809c1f1afb312240&format=json', function(data) {
+    var track = data.recenttracks.track[0]
+    $('#lastfm').html(track.artist["#text"] + " - " + track.name)
+  });
+
+  function expand(id) {
+      if ($(id).height() === 150) {
+        $(id).animate({'maxHeight': ($(id +" img").height()+30)}, 1000);
+      } else {
+        $(id).animate({'maxHeight': 150}, 1000);
+      }
+      $(id+"-btn").toggleClass("open");
+    }
+  </script>
+</body>
+</html>
